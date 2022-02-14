@@ -50,6 +50,7 @@ The final deliverables for the POC should be available in a github repo for your
 
 ### Guidelines for your Code:
 
+- To figure out what visuals you want to create, it might be easier to start with questions you want to answer using your data
 - You should be showcasing things you have learned throughout DU.
 - Try to use more functions in python and less of a scripting mentality.
 - Make sure your code and the steps you have taken to load your data into the database are clearly outlined
