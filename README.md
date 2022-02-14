@@ -20,11 +20,13 @@ form of the dataset as it exists in Kaggle.
 2. __Profile the data and assess its quality__: Profile the data in _at least one_ table.  That is, for each column present establish -- at a minimum -- the data type, minimum and maximum values (if applicable), null incidence,
 and top 3-5 values (if appicable).  Be prepared to show how you profiled this data, as well as an assessment of the data quality based on the profiling results.
 
-3. __Create the DDL for implementing your model in an RDBMS and execute it.__: Define each table using DDL and execute that DDL to build the tables in a RBDMS.
+3. __Clean the data__: Based on what you saw in the profiling, clean your data. Don't worry about making your data squeaky clean. This is a short PoC.
 
-4. __Load your data__: Load the data from Kaggle into your RBDMS using psycopg2 or another module.
+4. __Create the DDL for implementing your model in an RDBMS and execute it.__: Define each table using DDL and execute that DDL to build the tables in a RBDMS.
 
-5. __Prepare data visualizations__: Prepare at least 2 visualizations in Python, Tableau or another tool. Be prepared to discuss why you chose a particular visualization strategy for each.
+5. __Load your data__: Load the data from Kaggle into your RBDMS using psycopg2 or another module.
+
+6. __Prepare data visualizations__: Prepare at least 2 visualizations in Python, Tableau or another tool. Be prepared to discuss why you chose a particular visualization strategy for each.
 
 
 ## Deliverables
@@ -39,7 +41,7 @@ The final deliverables for the POC should be available in a github repo for your
 
 4. The DDL used to create your tables in the RBDMS.
 
-5. A py/ipynb file with the code used to transform and load the data into the RDBMS.
+5. A py/ipynb file with the code used to clean, transform, and load the data into the RDBMS.
 
 6. The code used to produce your visualizations (if applicable).
 
@@ -52,3 +54,4 @@ The final deliverables for the POC should be available in a github repo for your
 - Try to use more functions in python and less of a scripting mentality.
 - Make sure your code and the steps you have taken to load your data into the database are clearly outlined
 - Use a common Github repository for your team
+- Do not use the Titanic dataset. It is an extremely overused dataset.
